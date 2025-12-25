@@ -8,5 +8,4 @@ function saveSettings(){
         body:JSON.stringify({username,password,mobile})
     }).then(()=>document.getElementById("settingsMessage").innerText="Saved");
 }
-
 function openSettings(){window.location.href="settings.html";}
