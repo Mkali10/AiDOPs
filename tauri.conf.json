@@ -1,0 +1,21 @@
+{
+  "package": {
+    "productName": "AiDOPs",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "windows": [
+      {
+        "title": "AiDOPs",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "allowlist": {
+      "all": true
+    },
+    "security": {
+      "csp": null
+    }
+  }
+}
