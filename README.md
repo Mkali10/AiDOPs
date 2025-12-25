@@ -25,6 +25,8 @@ pip install -r requirements.txt
 See the folder hierarchy in the source for GUI, core modules, and data storage.
 
 Python Backend Integration (Flask) Desktop app launch
-npm run start-backend
-npm run tauri
+
+
+> npm run start-backend
+> npm run tauri
 
