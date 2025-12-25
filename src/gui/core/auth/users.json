@@ -1,5 +1,0 @@
-[
-    {"username":"admin","password":"admin123","role":"admin","mobile":"1234567890"},
-    {"username":"supervisor","password":"sup123","role":"supervisor","mobile":"0987654321"},
-    {"username":"guest","password":"guest","role":"guest","mobile":""}
-]
