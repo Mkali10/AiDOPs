@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AiDOPs Dashboard</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/themes.css">
+    <link rel="stylesheet" href="styles/animations.css">
+</head>
+<body>
+<div id="themeSelector">
+    <label>Theme:</label>
+    <select onchange="changeTheme(this.value)">
+        <option value="neuralDark">Neural Dark</option>
+        <option value="quantumBlue">Quantum Blue</option>
+        <option value="matrixGreen">Matrix Green</option>
+        <option value="solarLight">Solar Light</option>
+        <option value="midnightPurple">Midnight Purple</option>
+    </select>
+</div>
+
+<h2>AiDOPs Dashboard</h2>
+<div id="graphContainer" class="graph-container"></div>
+<div>
+    <button onclick="exportReport()">Export Report</button>
+    <button onclick="openSettings()">Settings</button>
+</div>
+
+<script src="scripts/graph.js"></script>
+<script src="scripts/dashboard.js"></script>
+<script src="scripts/reports.js"></script>
+<script src="scripts/settings.js"></script>
+</body>
+</html>
