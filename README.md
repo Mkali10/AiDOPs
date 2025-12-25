@@ -28,5 +28,6 @@ Python Backend Integration (Flask) Desktop app launch
 
 
 > npm run start-backend
+&
 > npm run tauri
 
