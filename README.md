@@ -31,3 +31,11 @@ Python Backend Integration (Flask) Desktop app launch
 &
 > npm run tauri
 
+
+
+Windows: double-click start_app.bat
+
+and For Linux "give the permission first" chmod +x start_app.sh
+
+Mac/Linux: terminal me ./start_app.sh
+
