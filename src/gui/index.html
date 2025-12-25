@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AiDOPs Login</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<div class="login-container">
+    <h2>AiDOPs Login</h2>
+    <input type="text" id="username" placeholder="Username / Mobile">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <button onclick="showForgot()">Forgot Password?</button>
+    <div id="loginMessage"></div>
+</div>
+
+<div id="forgotPassword" style="display:none;">
+    <input type="text" id="otpMobile" placeholder="Registered Mobile">
+    <button onclick="sendOTP()">Send OTP</button>
+    <input type="text" id="otpCode" placeholder="Enter OTP">
+    <button onclick="verifyOTP()">Verify OTP</button>
+</div>
+
+<script src="scripts/auth.js"></script>
+</body>
+</html>
